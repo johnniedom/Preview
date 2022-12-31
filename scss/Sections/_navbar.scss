@@ -1,0 +1,21 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.nav2{
+   @include slope;
+
+    li{
+        padding: 0 0.7rem;
+        text-transform: capitalize;
+    }
+    
+    a{
+        color: $white;
+        text-transform: capitalize;
+        font-weight: 600;
+    }
+    
+}
+
+
+

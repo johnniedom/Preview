@@ -1,0 +1,36 @@
+
+//MY THEME COLORS 
+$skyblue-light:  #00D7FF ;
+$blue:           #0096FF;
+$blue-dark:      #5800FF;
+$blue-light:     #72FFFF;
+$cyan:           #0dcaf0;
+$footer:         #151414;
+
+
+// WHITE AND GRAY COLOR
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000;
+
+// SCSS DEFAULT THEME COLOR
+$primary:       $blue;
+$secondary:    $skyblue-light;
+$info:          $blue-light;
+$dark:          $cyan;
+$success:       $blue-dark;
+
+//IMPORTED BOOTSTRAP
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//ACCORDION 
+$accordion-padding-y:                     1.5rem;
+$accordion-padding-x:                     1.5rem;

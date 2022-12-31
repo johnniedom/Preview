@@ -1,0 +1,21 @@
+// MAIN CUSTOM
+@use "custom";
+
+ //IMPORTED SECTIONS CUSTOM
+@use 'sections/navbar';
+@use 'sections/intro-section';
+@use 'sections/faq';
+@use 'sections/getstarted';
+@use 'Sections/portfoilo';
+@use 'Sections/services';
+@use 'Sections/companies';
+@use 'Sections/testimonial';
+@use 'sections/footer';
+
+
+
+//IMPORTED COMPONENTS CUSTOM
+@use 'components/button';
+@use 'components/typography';
+@use 'components/mixins';
+@use 'components/Animation';

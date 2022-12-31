@@ -1,0 +1,71 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+
+.testimonials {
+    position: relative;
+    padding: 0;
+    @include slope;
+
+    &__card {
+        background-color: rgba($white, 0.8);
+        padding: 2rem 1rem 4rem 1rem;
+        border-radius: 0.625rem;
+        height: auto;
+        text-align: center;
+     
+
+
+        .rating{
+           
+        i{
+            font-size: 1rem;
+            color: rgba($primary, 0.7);
+            // padding-bottom: 2rem;
+            // padding-top: 0;
+
+        }
+
+        }
+    }
+
+    &__picture{
+        position: relative;
+        width: 6rem;
+        height: 6rem;
+        left: 50%;
+        top: 52%;
+        padding-bottom: 0;
+        margin-bottom: 0;
+
+        transform:translate(-50%,-50%);
+
+    }
+
+    img{
+        border-radius: 50%;
+        border: 0.325rem solid rgba($primary, 0.7);
+    }
+
+    &__name{
+        position: relative;
+        padding-top:0;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: 500;
+        color: $white;
+        margin-top: 1px;
+        
+    }
+
+    h3{
+        padding-top: 0;
+        text-transform: capitalize;
+    }
+
+    p{
+        padding-bottom: 0;
+        text-transform: capitalize;
+    }
+
+}
